@@ -6,7 +6,7 @@
     <style type="text/css">
         #mynetwork {
             width: 50%;
-            height: 100%;
+            height: 500px;
         }
     </style>
 </head>
@@ -39,10 +39,11 @@
         nodes: nodes,
         edges: edges
     };
-    var options = {autoResize: true,
+    var options = {
+      autoResize: true,
       height: '100%',
       width: '100%'
-      locale: 'en',
+      /*locale: 'en',
       locales: locales,
       clickToUse: false,
       configure: {},    // defined in the configure module.
@@ -52,7 +53,7 @@
       layout: {},       // defined in the layout module.
       interaction: {},  // defined in the interaction module.
       manipulation: {}, // defined in the manipulation module.
-      physics: {},      // defined in the physics module.
+      physics: {},      // defined in the physics module.*/
     };
 
     // initialize your network!
